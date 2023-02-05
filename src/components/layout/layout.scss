@@ -1,0 +1,20 @@
+.body{
+    margin-top: 16px;
+    background-color: #FCFCFC;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+
+    &-items{
+        display: flex;
+        flex-direction: row;
+        gap: 62px;
+
+        list-style-type: none;
+        font-size: 14px;
+        font-family: Roboto;
+        color: #ADADAD;
+    }
+}
