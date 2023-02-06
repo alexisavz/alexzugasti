@@ -1,0 +1,39 @@
+.body{
+    background-color: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    &-items{
+        display: flex;
+        flex-direction: row;
+        gap: 62px;
+
+        list-style-type: none;
+        font-size: 14px;
+        font-family: Roboto;
+
+        &-links{
+            text-decoration: none;
+            color: #ADADAD;
+
+            transition: 400ms;
+        }
+        &-links:hover{
+            color: #501B1D;
+        }
+    }
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
