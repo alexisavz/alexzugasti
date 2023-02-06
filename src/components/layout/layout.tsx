@@ -4,10 +4,9 @@ import './layout.scss'
 
 interface Props{
     children: React.ReactNode
-    pageTitle: string
 }
 
-const Layout = ({ pageTitle, children } :Props) => {
+const Layout = ({children } :Props) => {
   return (
     <div className='body'>
       <nav className='navbar'>
@@ -19,7 +18,6 @@ const Layout = ({ pageTitle, children } :Props) => {
         </ul>
       </nav>
       <main className='content'>
-        <h1>{pageTitle}</h1>
         {children}
       </main>
     </div>
