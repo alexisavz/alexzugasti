@@ -1,6 +1,9 @@
 .body{
     margin-top: 16px;
     background-color: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .navbar{
@@ -15,6 +18,13 @@
         list-style-type: none;
         font-size: 14px;
         font-family: Roboto;
-        color: #ADADAD;
+
+        &-links{
+            text-decoration: none;
+            color: #ADADAD;
+        }
+        &-links:hover{
+            color: #501B1D;
+        }
     }
 }

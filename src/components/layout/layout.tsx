@@ -12,13 +12,13 @@ const Layout = ({ pageTitle, children } :Props) => {
     <div className='body'>
       <nav className='navbar'>
         <ul className='navbar-items'>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/experience">Experience</Link></li>
-          <li><Link to="/blog">Blog</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link className="navbar-items-links" to="/">Home</Link></li>
+          <li><Link className="navbar-items-links" to="/experience">Experience</Link></li>
+          <li><Link className="navbar-items-links" to="/blog">Blog</Link></li>
+          <li><Link className="navbar-items-links" to="/contact">Contact</Link></li>
         </ul>
       </nav>
-      <main>
+      <main className='content'>
         <h1>{pageTitle}</h1>
         {children}
       </main>
