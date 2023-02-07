@@ -21,7 +21,7 @@ const ExperiencePage = ({ data }: { data: any }) => {
                   <h3 className="experience-title">{node.title}</h3>
                   <RenderDate data={node.startedAt} until={"month"} text={"Started At: "}/>
                   {node.endedAt &&
-                  <RenderDate data={node.startedAt} until={"month"} text={"Ended At: "}/>}
+                  <RenderDate data={node.endedAt} until={"month"} text={"Ended At: "}/>}
                   <PortableText value={node._rawContent} />
                 </div>
               </>
