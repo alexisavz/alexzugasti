@@ -1,17 +1,11 @@
 import * as React from "react";
 import Layout from "../components/layout/layout";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import { PortableText } from "@portabletext/react";
-import { BaseBlockContent } from "../utils/richText";
 import RenderDate from "../components/renderDate/renderDate";
 import "./experience.scss";
 
-interface ExperiencePageProps {
-  data: any[];
-}
-
 const ExperiencePage = ({ data }: { data: any }) => {
-  console.log(data);
   return (
     <Layout>
       <div className="container">
