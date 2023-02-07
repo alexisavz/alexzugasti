@@ -15,7 +15,7 @@ const IndexPage = () => {
           tools. Lately, I’ve been focusing a lot on web development, but I’m
           interested in a lot of different things. Some of my other projects may
           also include electronics and robotics. With a lot of different
-          interests I’ve been wanting to make a place to recompile all of the
+          interests I’ve been wanting to make a place to compile all of the
           things I work on. So, feel free to use this space to know and ask more
           about myself! Also, I commission websites!
         </p>
