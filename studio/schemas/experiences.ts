@@ -11,12 +11,18 @@ export default {
       {
         name: 'startedAt',
         title: 'StartedAt',
-        type: 'datetime',
+        type: 'date',
+        options:{
+          dateFormat: 'YYYY-MM'
+        }
       },
       {
         name: 'endedAt',
         title: 'ended At',
-        type: 'datetime'
+        type: 'date',
+        options:{
+          dateFormat: 'YYYY-MM'
+        }
       },
       {
         name: 'content',
