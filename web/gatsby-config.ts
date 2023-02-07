@@ -1,4 +1,4 @@
-import type { GatsbyConfig } from "gatsby"
+import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -6,16 +6,16 @@ const config: GatsbyConfig = {
   },
   graphqlTypegen: true,
   plugins: [
-    `gatsby-plugin-sass`,
+    { resolve: `gatsby-plugin-sass` },
     {
-      resolve: 'gatsby-source-sanity',
+      resolve: "gatsby-source-sanity",
       options: {
-        projectId: 'ua0pwfin',
-        dataset: 'production',
-      }
+        projectId: "ua0pwfin",
+        dataset: "production",
+      },
     },
-    'gatsby-plugin-image',
+    "gatsby-plugin-image",
   ],
-}
+};
 
-export default config
+export default config;
